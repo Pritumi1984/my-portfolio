@@ -1,3 +1,5 @@
+// HomePage consists of the header, 
+
 import Header from "./Header"
 
 const HomePage = () =>{
