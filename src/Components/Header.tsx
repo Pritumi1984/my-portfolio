@@ -9,7 +9,6 @@ const Header = () => {
                 <a className="text-textColor hover:text-primaryColor" href="#experience">Experience</a>
                 <a className="text-textColor hover:text-primaryColor" href="#projects">Projects</a>
                 <a className="text-textColor hover:text-primaryColor" href="#contact">Contact</a>
-
             </div>
         </nav>
     );
