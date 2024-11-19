@@ -1,3 +1,5 @@
+import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandYoutube, IconBrandLeetcode } from "@tabler/icons-react";
+
 const Info={
     name:"Pritumi Patel",
     stack:["Computer Science Major", "2nd year student", "Front-End Developer"],
@@ -61,4 +63,87 @@ const ProjectInfo = [
     }
 ]
 
-export{Info, ProjectInfo};
+const SkillInfo = [
+    {
+        title: "Frontend",
+        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
+        ]
+    },
+    {
+        title: "Backend",
+        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
+    },
+    {
+        title: "Languages",
+        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
+    },
+    {
+        title: "Tools",
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+    }
+]
+const socialLinks = [
+    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
+    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
+    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
+    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
+    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
+];
+
+
+const ExperienceInfo = [
+    {
+        role: "Specialist Programmer",
+        company: "Infosys",
+        date: "Oct 2023 - Present",
+        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
+    },
+    {
+        role: "System Engineer",
+        company: "Infosys",
+        date: "Nov 2022 - Sep 2023",
+        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
+        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
+    }
+]
+const Slugs = [
+    "typescript",
+    "spring",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "angular",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    "springboot",
+    "mongodb",
+    "selenium",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "mysql",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+];
+
+export{Info, ProjectInfo, SkillInfo, socialLinks, ExperienceInfo, Slugs};
