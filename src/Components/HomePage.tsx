@@ -4,6 +4,7 @@ import Header from "./Header"
 import Mail from "./Mail"
 import Social from "./Social";
 import Skills from "./Skills";
+import Experience from "./Experience";
 
 const HomePage = () =>{
     return(
@@ -14,6 +15,7 @@ const HomePage = () =>{
             <Social></Social>
             <Projects></Projects>
             <Skills></Skills>
+            <Experience></Experience>
 
         
         </>
