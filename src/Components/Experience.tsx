@@ -4,7 +4,7 @@ import { IconBriefcaseFilled, } from "@tabler/icons-react";
 
 const TimelineItem = (items:any) => {
     
-    return items.map((item:any, index:number)=> <Timeline.Item key={index} className="!pt-12 !mt-5 !mb-0"
+    return items.map((item:any, index:number)=> <Timeline.Item data-aos="fade-up" data-aos-duration="1600" key={index} className="!pt-12 !mt-5 !mb-0"
     bullet={<IconBriefcaseFilled className="!text-bgColor" size={20} />}>
 
         <div className="flex flex-col gap-2 border border-primaryColor shadow-[0_0_10px_0_#64FFDA50] p-4 rounded-2xl">

@@ -4,11 +4,24 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {colors: {
-      bgColor: "#0A192F",
-      primaryColor: "#64FFDA",
-      textColor: "#8892B0",
-    },},
+    extend: {
+      colors: {
+        bgColor: "#0A192F",
+        primaryColor: "#64FFDA",
+        textColor: "#8892B0",
+      },
+      animation: {
+        "background-position-spin":
+          "background-position-spin 3000ms infinite alternate",
+      },
+      keyframes: {
+        "background-position-spin": {
+          "0%": { backgroundPosition: "top center" },
+          "100%": { backgroundPosition: "bottom center" },
+        },
+      },
+    },
+    
     screens: {
 
       'xs': '476px',
