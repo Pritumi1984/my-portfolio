@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/**from scrollbar codepen**/
 
 html{
   --primary-color:"#64FFDA";
