@@ -1,6 +1,6 @@
 import { Badge, Button, Image, Card, Text, Group, Indicator } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import FullProjectModal from "./FullProjectModal";
+//import FullProjectModal from "./FullProjectModal";
 
 const ProjectCard=(props:any)=>{
     const [opened, { open, close }] = useDisclosure(false);
@@ -38,9 +38,9 @@ const ProjectCard=(props:any)=>{
         Show More
       </Button>
     </Card>
-    <FullProjectModal opened={opened} close={close} title={props.title}
+    {/* <FullProjectModal opened={opened} close={close} title={props.title}
             desc={props.desc} image={props.image} live={props.live} link={props.link}
-            github={props.github} technologies={props.technologies}/>
+            github={props.github} technologies={props.technologies}/> */}
     </div>
     )
 }

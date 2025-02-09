@@ -14,7 +14,7 @@ const About=()=>{
 
     return( 
       <>
-        <div className="flex relative overflow-hidden justify-around items-center font-mono px-16 h-[85vh]" id="bg">
+        <div className="flex relative overflow-hidden justify-around items-center font-mono px-16 h-[85vh] lg-mx:justify-between" id="bg">
         <Particles
         className="absolute inset-0 -z-20"
         quantity={1000}
