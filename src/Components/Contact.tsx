@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FloatingInput from "./FloatingInput";
-import { Button } from "@mantine/core";
+import { Button, useMatches } from "@mantine/core";
 import { IconArrowRight, IconMailHeart } from "@tabler/icons-react";
 import { validateForm } from "./Validation";
 import { addDoc, collection } from "firebase/firestore";
@@ -44,6 +44,13 @@ const Contact =() => {
     }
   }
 
+  const btn = useMatches({
+    xsm: 'xs',
+    sm: "sm",
+    md: 'md',
+    lg: "lg"
+  })
+
   return( 
     <div className="px-16 md-mx:px-8 sm-mx:px-4 mx-20 lg-mx:mx-10 md-mx:mx-0   my-10  font-mono" id="Contact">
         <h1 className="text-4xl  sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white"><span className="text-primaryColor">05.&nbsp;</span>Contact</h1>
@@ -54,7 +61,7 @@ const Contact =() => {
             <FloatingInput id="phone" name="Phone Number" value={formData.phone} handleChange={handleChange}  error={formError.phone}/>
             <FloatingInput id="message" name="Message" value={formData.message} handleChange={handleChange}  error={formError.message}/>
             <Button fullWidth onClick={handleSubmit} rightSection={<IconArrowRight size={20} />}
-                className="!text-bgColor !font-bold " variant="filled" radius="lg" color="#64FFDA">Send</Button>
+                className="!text-bgColor !font-bold " variant="filled" size={btn} radius="lg" color="#64FFDA">Send</Button>
         </div>
     </div>
   )

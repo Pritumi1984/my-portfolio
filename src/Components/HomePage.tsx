@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import { Loader } from "./Loader";
 import { useEffect, useState } from "react";
+import { Toaster } from "react-hot-toast";
 
 const HomePage = () =>{
 
@@ -24,6 +25,7 @@ const HomePage = () =>{
         {   loading!==true
             ?
             <>
+                <Toaster/>
                 <Header />
                 <About />
                 <Projects />
