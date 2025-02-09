@@ -14,7 +14,9 @@ const About=()=>{
 
     return( 
       <>
-        <div className="flex relative overflow-hidden justify-around items-center font-mono px-16 h-[85vh] lg-mx:justify-between" id="bg">
+        <div data-aos="fade-up" data-aos-duration="800" 
+        className="flex relative overflow-hidden justify-around items-center font-mono px-16 h-[85vh] 
+        lg-mx:justify-between !bs-mx:flex-wrap !bs-mx:flex-col-reverse" id="bg">
         <Particles
         className="absolute inset-0 -z-20"
         quantity={1000}
@@ -35,8 +37,8 @@ const About=()=>{
                 </div>
             </div>
 
-            <div className="h-fit flex justify-center items-center rounded-full w-fit mr-14" id="photo">
-              <NeonGradientCard className="w-[280px] h-[280px] items-center justify-center text-center">
+            <div className="h-fit flex justify-center items-center rounded-full w-fit bs:mr-14" id="photo">
+              <NeonGradientCard className="w-[280px] h-[280px] lg-mx:w-64 lg-mx:h-64 items-center justify-center text-center">
                 <img className="w-full h-full rounded-full" src="/my_pic.JPG" alt="profile pic"/>
               </NeonGradientCard>
             </div>

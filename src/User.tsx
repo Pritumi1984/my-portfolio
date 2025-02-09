@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandYoutube, IconBrandLeetcode } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandYoutube, IconBrandLeetcode, IconBrandGmail } from "@tabler/icons-react";
 
 const Info={
     name:"Pritumi Patel",
@@ -82,12 +82,12 @@ const SkillInfo = [
         skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
     }
 ]
-const socialLinks = [
-    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
-    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
-    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
-    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
-    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
+const socialLinks=[
+    {link:"https://github.com/Pritumi1984", icon:IconBrandGithub},
+    {link:"https://www.linkedin.com/in/pritumipatel/", icon:IconBrandLinkedin},
+    {link:"https://leetcode.com/u/pritumi1914/", icon:IconBrandLeetcode},
+    {link:"mailto:pritumi.patel1984@gmail.com", icon:IconBrandGmail},
+    {link:"https://www.instagram.com/pritumii_p/", icon:IconBrandInstagram},
 ];
 
 

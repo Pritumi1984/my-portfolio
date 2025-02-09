@@ -1,13 +1,7 @@
 import { IconBrandGithub, IconBrandGmail, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
+import { socialLinks } from "../User";
 
 const Social=()=>{
-    const socialLinks=[
-        {link:"https://github.com/Pritumi1984", icon:IconBrandGithub},
-        {link:"https://www.linkedin.com/in/pritumipatel/", icon:IconBrandLinkedin},
-        {link:"https://leetcode.com/u/pritumi1914/", icon:IconBrandLeetcode},
-        {link:"pritumi.patel1984@gmail.com", icon:IconBrandGmail},
-        {link:"https://www.instagram.com/pritumii_p/", icon:IconBrandInstagram},
-    ];
 
     const socialIcons=socialLinks.map((socialLink)=>{
         return <a href={`${socialLink.link}`} target="_blank" className="font-mono text-lg hover:text-primaryColor
