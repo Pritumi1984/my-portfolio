@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# my-portfolio
+
+# My personal webiste showcasing my experiences, projects and skills
+Check it out [here](https://pritumi1984.github.io/Portfolio/).
 My personal webiste showcasing my experiences, projects and skills
 =======
 # Getting Started with Create React App
