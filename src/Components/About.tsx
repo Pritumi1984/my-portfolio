@@ -33,7 +33,7 @@ const About=()=>{
                 <div className="text-textColor text-xl text-justify w-[90%] font-semibold my-8">{Info.bio}</div>
                 <div className="flex gap-3">
                   <Button onClick={open} className="!text-bgColor !w-fit" size="lg" variant="filled" color="#64FFDA">Check resume</Button>
-                  <Button component="a" href="/Pritumi_Resume.pdf" download={Info.name} className="!text-primaryColor !w-fit" size="lg" variant="outline" color="#64FFDA" rightSection={<IconDownload size={20} />}>Download</Button>
+                  <Button component="a" href="Pritumi_Resume.pdf" download={Info.name} className="!text-primaryColor !w-fit" size="lg" variant="outline" color="#64FFDA" rightSection={<IconDownload size={20} />}>Download</Button>
                 </div>
             </div>
 
