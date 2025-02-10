@@ -1,4 +1,3 @@
-import { Avatar } from "@mantine/core";
 
 const SkillBadge=(skills:[])=>{
     return skills.map((skill:any, index:number)=><div key={index} className="flex gap-2 p-2 !border border-textColor rounded-2xl items-center">

@@ -1,4 +1,3 @@
-import { IconBrandGithub, IconBrandGmail, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
 import { socialLinks } from "../User";
 
 const Social=()=>{
