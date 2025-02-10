@@ -39,7 +39,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Material UI", "Bootstrap"
+        skills: ["HTML", "CSS", "React JS", "Flutter", "Tailwind CSS", "Material UI", "Bootstrap"
         ]
     },
     {
@@ -48,11 +48,11 @@ const SkillInfo = [
     },
     {
         title: "Languages",
-        skills: ["Python", "Java", "C", "JavaScript", "TypeScript"]
+        skills: ["Python", "Java", "JavaScript", "C", "TypeScript"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass",]
+        skills: ["Git", "Github", "AWS", "Azure", "MongoDB Compass", "Jira", "Postman"]
     }
 ]
 const socialLinks=[
