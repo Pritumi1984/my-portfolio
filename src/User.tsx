@@ -2,7 +2,7 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandYoutub
 
 const Info={
     name:"Pritumi Patel",
-    stack:["Computer Science Major", "2nd year student", "Software Developer"],
+    stack:["Computer Science Major", "3rd year student", "Software Developer"],
     bio:"I'm a computer science student at York University with an ambition to pursue software development. My mission is to broaden my horizons in this field, promote the essence of technology in my community and connect with others who share the same drive and ambition!"
 }
 
