@@ -8,7 +8,7 @@ const Projects=()=>{
         <div className="flex flex-wrap justify-between gap-4">
           {
             ProjectInfo.map((project:any, index:number)=><ProjectCard key={index} title={project.title}
-            desc={project.desc} image={project.image} live={project.live} link={project.link}
+            desc={project.desc} image={project.image} link={project.link}
             github={project.github} technologies={project.technologies}/>)
           }
         </div>

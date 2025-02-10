@@ -1,6 +1,6 @@
 import { Badge, Button, Image, Card, Text, Group, Indicator } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-//import FullProjectModal from "./FullProjectModal";
+import FullProjectModal from "./FullProjectModal";
 
 const ProjectCard=(props:any)=>{
     const [opened, { open, close }] = useDisclosure(false);
@@ -17,10 +17,7 @@ const ProjectCard=(props:any)=>{
       </Card.Section>
 
       <Group justify="space-between" mt="xs" mb="xs">
-        <Text className="!text-2xl !font-bold !text-white gap-2 flex items-center">{props.title} {props.live===true &&
-            <Badge variant="outline" color="red" rightSection={<Indicator color="red" position="middle-end" size={7} processing></Indicator>}>
-                Live 
-            </Badge>}
+        <Text className="!text-2xl !font-bold !text-white gap-2 flex items-center">{props.title}
         </Text>
       </Group>
 
@@ -38,9 +35,9 @@ const ProjectCard=(props:any)=>{
         Show More
       </Button>
     </Card>
-    {/* <FullProjectModal opened={opened} close={close} title={props.title}
-            desc={props.desc} image={props.image} live={props.live} link={props.link}
-            github={props.github} technologies={props.technologies}/> */}
+    <FullProjectModal opened={opened} close={close} title={props.title}
+            desc={props.desc} image={props.image} link={props.link}
+            github={props.github} technologies={props.technologies}/>
     </div>
     )
 }
