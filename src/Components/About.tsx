@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Info } from "../User";
 import Typewriter from "typewriter-effect";
 import { Button } from "@mantine/core";

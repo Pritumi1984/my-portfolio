@@ -1,6 +1,5 @@
 import { useDisclosure } from '@mantine/hooks';
 import { Drawer, Burger } from '@mantine/core';
-import { IconHexagonLetterP, IconX } from '@tabler/icons-react';
 import { navLinks } from './Header';
 
 const SideBar = () => {
